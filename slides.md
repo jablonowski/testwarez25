@@ -384,8 +384,8 @@ level: 3
 </div>
 <div>
 
-<img src="./img/tweeet.png" style="width: 243px;" />
-<!-- <Tweet id="1953531950137815374"  scale="0.5" origin="top center" /> -->
+<!-- <img src="./img/tweeet.png" style="width: 243px; margin-left: 90px" /> -->
+<Tweet id="1953531950137815374"  scale="0.5" origin="top center" />
 </div>
 </div> 
 
