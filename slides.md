@@ -318,7 +318,7 @@ level: 2
 <div>
 
 <br/><br/>
-<Tweet id="1977973559835144238" scale="0.65" />
+<Tweet id="1977973559835144238" scale="0.65" origin="top center" />
 </div>
 </div>
 
@@ -355,7 +355,7 @@ Są problemy, o których może zaalarmować wyłącznie zespół inżynierów, d
 
 <br/>
 <br/>
-<Tweet id="1902628884278894941"  scale="0.65" />
+<Tweet id="1902628884278894941"  scale="0.65" origin="top center" />
 </div>
 </div> 
 
@@ -384,8 +384,8 @@ level: 3
 </div>
 <div>
 
-<img src="./img/tweeet.png" style="width: 243px;" />
-<!-- <Tweet id="1953531950137815374"  scale="0.5" /> -->
+<!-- <img src="./img/tweeet.png" style="width: 243px;" /> -->
+<Tweet id="1953531950137815374"  scale="0.5" origin="top center" />
 </div>
 </div> 
 
