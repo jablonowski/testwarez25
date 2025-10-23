@@ -96,7 +96,7 @@ level: 3
 ---
 
 # Czy stracimy pracę?
-
+<br /><br />
 |                                                     |                             |
 | --------------------------------------------------- | --------------------------- |
 |  World Economic Forum <br/> "Future of Jobs Report 2025" [^WEF] | 40% ankietowanych pracodawców spodziewa się, że zredukuje zatrudnienie w swojej firmie w miarę poszerzania się zdolności AI     |
@@ -111,7 +111,7 @@ level: 3
 level: 3
 ---
 # Agenda
-<br/><br/>
+<br/><br/><br/><br/>
 <Toc text-sm minDepth="1" maxDepth="1" />
 
 ---
@@ -120,7 +120,7 @@ level: 1
 ---
 
 # Ai zwiększa produktywność w pisaniu kodu, ale... [^Stanford]
-<br /><br /><br /><br /><br /><br />
+<br /><br /><br />
 
 <BorderedImage imgPath="./img/stanford.png" />
 
@@ -163,6 +163,7 @@ level: 3
 ---
 
 # Produktywność - podsumowanie
+<br/><br/><br/><br/>
 
 - 📈 **30-40%** - wzrost produktywności w pisaniu kodu [^Stanford]
 - 📉 <span v-mark.red="1">**15-25%**</span> - poprawki (rework) [^Stanford]
@@ -184,8 +185,8 @@ level: 3
 ---
 # Używając AI więcej poprawiamy [^gitclear]
 
-
-<BorderedImage imgPath="./img/gitclear.png" customWidth="80%" />
+<br/>
+<BorderedImage imgPath="./img/gitclear.png" customWidth="70%" />
 
 [^gitclear]: (https://gitclear-public.s3.us-west-2.amazonaws.com/GitClear-AI-Copilot-Code-Quality-2025.pdf)
 
@@ -205,8 +206,8 @@ level: 3
 ---
 
 # (Nie)stabilność dostarczania [^dora]
-
-<BorderedImage imgPath="./img/dora.png" customWidth="60%" />
+<br/>
+<BorderedImage imgPath="./img/dora.png" customWidth="50%" />
 
 [^dora]: (https://dora.dev/research/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf)
 
@@ -236,8 +237,8 @@ title: AI pomaga nie tylko w pisaniu kodu
 level: 3
 ---
 # Nie tylko pisanie kodu [^atlassian]
-
-<BorderedImage imgPath="./img/atlassian.png" customWidth="60%" />
+<br/>
+<BorderedImage imgPath="./img/atlassian.png" customWidth="50%" />
 
 [^atlassian]: (https://www.atlassian.com/teams/software-development/state-of-developer-experience-2025)
 
@@ -246,8 +247,10 @@ title: AI pomaga nie tylko w pisaniu kodu
 level: 2
 ---
 # Nie tylko pisanie kodu
+<br/><br/><br/><br/>
 
 Inżynierowie deklarują, że odnotowują wzrost swojej produktywności w zadaniach niezwiązanych z kodowaniem [^atlassian]
+
 - 🔎 **30-40%** - wyszukiwanie informacji
 - 📝 **15-25%** - testowanie
 - 🧑‍💻 **15-20%** - tworzenie dokumentacji
@@ -258,6 +261,7 @@ title: Rosnące oczekiwania
 level: 2
 ---
 # Rosnące oczekiwania
+<br/><br/><br/><br/>
 
 Inżynierowie deklarują, ze odnotowują wzrost swojej produktywności w zadaniach niezwiązanych z kodowaniem
 - ☹️ **63%** - deklaruje, że managerowie nie rozumieją problemów, z którymi się mierzą [^atlassian]
@@ -270,6 +274,7 @@ title: Fakty o AI w kodowaniu - podsumowanie
 level: 3
 ---
 # Fakty o AI w kodowaniu - podsumowanie
+<br/><br/>
 
 - 🚀 Ai zwiększa produktywność w wytwarzaniu oprogramowania, ale nie zawsze i nie w równym stopniu [^Stanford]
 - 🔎 Zmienia się sposób, w jaki pracujemy z kodem (mniej refaktorujemy, więcej przerabiamy) [^Stanford] [^gitclear]
@@ -296,6 +301,7 @@ level: 2
 # Solidne podstawy inżynierskie
 <div grid="~ cols-2 gap-4">
 <div>
+<br/>
 
 - Clean Code 
   - więcej kodu !== lepiej
@@ -311,7 +317,7 @@ level: 2
 </div>
 <div>
 
-
+<br/><br/>
 <Tweet id="1977973559835144238" scale="0.65" />
 </div>
 </div>
@@ -321,6 +327,7 @@ title: Umiejętności interpersonalne
 level: 2
 ---
 # Umiejętności interpersonalne
+<br/><br/><br/><br/><br/>
 
 "Nie po to studiowałem informatykę, żeby rozmawiać z ludźmi" - mądrość ludowa
 
@@ -336,6 +343,9 @@ level: 3
 
 <div grid="~ cols-2 gap-4">
 <div>
+<br/>
+<br/>
+<br/>
 
 Są problemy, o których może zaalarmować wyłącznie zespół inżynierów, dobrze mieć takich, którzy wykażą się odpowiedzialnością za projekt i zakomunikują o nich we właściwym momencie.
 
@@ -343,6 +353,8 @@ Są problemy, o których może zaalarmować wyłącznie zespół inżynierów, d
 <div>
 
 
+<br/>
+<br/>
 <Tweet id="1902628884278894941"  scale="0.65" />
 </div>
 </div> 
@@ -356,6 +368,7 @@ level: 3
 
 <div grid="~ cols-2 gap-4">
 <div>
+<br/>
 
 - **ponad 50%** użytkowników preferuje rozwiązania AI do wyszukiwania informacji [^McKinsey]
 - **Deloitte** przygotował raport pełen halucynacji AI. [^cd]
@@ -385,6 +398,7 @@ image: 'img/pferdt.jpg'
 level: 3
 ---
 # Umiejętności interpersonalne - otwartość 
+<br/>
 Fredrik Pferdt były Chief Innovation Evangelist w firmie Google, w swojej ksiązce pisze o mentalności gotowej na przyszłość, polegającą na wykształceniu kompetencji i postaw, takich jak:
 
 - ciekawość, 
@@ -575,6 +589,7 @@ title: Podsumowanie
 level: 1
 ---
 # Podsumowanie
+<br/><br/><br/><br/>
 
 AI pozwala zwiększyć produktywność w tworzeniu oprogramowania, ale w nieodpowiedzialnych rękach moze stanowić poważne zagrozenie dla jakości.
 Kompetencje przyszłości dla inyżnierów IT pozostają bez zmian, są to: 
