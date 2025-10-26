@@ -44,8 +44,8 @@ hideInToc: true
 |                                                     |                             |
 | --------------------------------------------------- | --------------------------- |
 |  <img src="../img/google.webp" />                   | ponad 25% kodu w Google generowana jest przez AI [^fortune.com]|
-|  <img src="../img/amazon.png" />                    | 30k aplikacji zmigrowanych z Javy 11 do 17 <br/> tylko w jednym kwartale z uyciem Amazon Q [^digiday.com] |
-|  <img src="../img/ibm.png" />                       | Wotsonx potrafi zwiększyć produktywności  <br/> w procesach przepisaywania systemów legacy o 60%  [^ibm.com]    |
+|  <img src="../img/amazon.png" />                    | 30k aplikacji zmigrowanych z Javy 11 do 17 <br/> tylko w jednym kwartale z użyciem Amazon Q [^digiday.com] |
+|  <img src="../img/ibm.png" />                       | Wotsonx potrafi zwiększyć produktywność  <br/> w procesach przepisywania systemów legacy o 60%  [^ibm.com]    |
 
 [^fortune.com]: (https://fortune.com/2024/10/30/googles-code-ai-sundar-pichai/) 
 [^digiday.com]: (https://digiday.com/media/how-amazons-genai-tool-for-developers-is-saving-4500-years-of-work-260-million-annually/) 
@@ -66,7 +66,7 @@ level: 3
 <br/><br/><br/><br/>
 Satya Nadella (CEO Microsoft): **20-30% kodu, który znajduje się w naszych repozytoriach zostało wygeneroweane przez AI** [^Reuters]
 <br/><br/><br/>
-Mark Zuckerberg  (CEO Meta): **W przyszłym roku za połowę developmentu będzie odpowiedzialne AI** [^Reuters]
+Mark Zuckerberg  (CEO Meta): **W przyszłym roku za połowę developmentu będzie odpowiedzialna AI** [^Reuters]
 
 
 [^Reuters]: (https://www.youtube.com/watch?v=u6Nby-9Z80M)
@@ -117,11 +117,11 @@ level: 3
 <Toc text-sm minDepth="1" maxDepth="1" />
 
 ---
-title: Co o AI w kodowaniu mówią niezalene raporty i badania?
+title: Co o AI w kodowaniu mówią niezależne raporty i badania?
 level: 1
 ---
 
-# Ai zwiększa produktywność w pisaniu kodu, ale... [^Stanford]
+# AI zwiększa produktywność w pisaniu kodu, ale... [^Stanford]
 <br /><br /><br />
 
 <BorderedImage imgPath="./img/stanford.png" />
@@ -269,7 +269,7 @@ level: 2
 
 
 - ☹️ **63%** - deklaruje, że managerowie nie rozumieją problemów, z którymi się mierzą [^atlassian]
-- 📣 wg raportu DORA Ai działa jak wzmacniacz - moze wzmacniać zalety zespołów, ale moze tez pogłębiać problemy [^dora]
+- 📣 wg raportu DORA AI działa jak wzmacniacz - może wzmacniać zalety zespołów, ale może też pogłębiać problemy [^dora]
   
 [^atlassian]: (https://www.atlassian.com/teams/software-development/state-of-developer-experience-2025)
 [^dora]: (https://dora.dev/research/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf)
@@ -280,12 +280,12 @@ level: 3
 # Fakty o AI w kodowaniu - podsumowanie
 <br/><br/>
 
-- 🚀 Ai zwiększa produktywność w wytwarzaniu oprogramowania, ale nie zawsze i nie w równym stopniu [^Stanford]
+- 🚀 AI zwiększa produktywność w wytwarzaniu oprogramowania, ale nie zawsze i nie w równym stopniu [^Stanford]
 - 🔎 Zmienia się sposób, w jaki pracujemy z kodem (mniej refaktorujemy, więcej przerabiamy) [^Stanford] [^gitclear]
-- 📉 Ai może wpłynąć negatywnie na stabilność dostarczania [^dora]
-- 🪲 Ai może negatywnie wpływać na jakość i dług techniczny [^Stanford] [^dora]
-- 📝 Ai zwiększa produktywność nie tylko w pisaniu kodu [^atlassian]
-- 📣 Ai moze wzmacniać zalety i wady zespołu i zwiększać presję na dostarczanie [^dora] [^atlassian]
+- 📉 AI może wpłynąć negatywnie na stabilność dostarczania [^dora]
+- 🪲 AI może negatywnie wpływać na jakość i dług techniczny [^Stanford] [^dora]
+- 📝 AI zwiększa produktywność nie tylko w pisaniu kodu [^atlassian]
+- 📣 AI może wzmacniać zalety i wady zespołu oraz zwiększać presję na dostarczanie [^dora] [^atlassian]
 
 [^atlassian]: (https://www.atlassian.com/teams/software-development/state-of-developer-experience-2025)
 [^dora]: (https://dora.dev/research/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf)
@@ -376,7 +376,7 @@ level: 3
 
 - **ponad 50%** użytkowników preferuje rozwiązania AI do wyszukiwania informacji [^McKinsey]
 - **Deloitte** przygotował raport pełen halucynacji AI. [^cd]
-
+  
 <br/>
 <hr/>
 <br/>
@@ -387,9 +387,8 @@ level: 3
 **czy potrafię lepiej lub szybciej?**
 </div>
 <div>
-
-<!-- <img src="./img/tweeet.png" style="width: 243px; margin-left: 90px" /> -->
-<Tweet id="1953531950137815374"  scale="0.5" origin="top center" />
+<img src="./img/tweeet.png" style="width: 243px; margin-left: 90px" />
+<!-- <Tweet id="1953531950137815374"  scale="0.5" origin="top center" /> -->
 </div>
 </div> 
 
@@ -403,11 +402,11 @@ level: 3
 ---
 # Umiejętności interpersonalne - otwartość 
 <br/>
-Fredrik Pferdt były Chief Innovation Evangelist w firmie Google, w swojej ksiązce pisze o mentalności gotowej na przyszłość, polegającą na wykształceniu kompetencji i postaw, takich jak:
+Frederik G. Pferdt były Chief Innovation Evangelist w firmie Google, w swojej książce pisze o mentalności gotowej na przyszłość, polegającej na wykształceniu kompetencji i postaw, takich jak:
 
-- ciekawość, 
-- otwartość, 
-- radykalny optymizm, 
+- ciekawość 
+- otwartość 
+- radykalny optymizm 
 - eksperymentowanie
 - zdolność uczenia się
   
@@ -434,7 +433,7 @@ level: 2
 
 - n8n
 - integracja z Jira API
-- moliwość uruchomienia lokalnie
+- możliwość uruchomienia lokalnie
 
 
 </div>
@@ -462,7 +461,7 @@ level: 2
 <h4>🚀 RAG <a href="https://github.com/jablonowski/first-rag">github.com</a></h4>
 
 <br/>
-<p>System może rozwiązać problem dokumentacji projektowej (technicznej biznesowej) rozsianej w rónych systemach i lokalizacjach (np. Jira, Confluence, statyczne pliki itd.) zapewniając dostęp do całej wiedzy za pośrednictwem jednego interfejsu np. chatu.</p>
+<p>System może rozwiązać problem dokumentacji projektowej (technicznej biznesowej) rozsianej w różnych systemach i lokalizacjach (np. Jira, Confluence, statyczne pliki itd.) zapewniając dostęp do całej wiedzy za pośrednictwem jednego interfejsu np. chatu.</p>
 
 
 </div>
@@ -477,7 +476,7 @@ $ node .
 <br/>
 
 - Retrival Augmented Generation
-- integracja z zewenętrzną bazą wektorową
+- integracja z zewnętrzną bazą wektorową
 - indeksowanie plików pdf
 - Node.js + LangChain
 
@@ -497,7 +496,7 @@ level: 2
 <h4>❤️‍🩹 robotframework-heal - <a href="https://github.com/manykarim/robotframework-heal">github.com</a></h4>
 
 <br/>
-<p>Biblioteka analizuje, które testy automatyczne się nie powiodły z powodu błędnych selektorów elementów UI.</p>
+<p>Biblioteka analizuje, które testy automatyczne nie powiodły się z powodu błędnych selektorów elementów UI.</p>
 <br/>
 
 - identyfikuje selektory elementów w testach (failed)
@@ -553,9 +552,9 @@ level: 2
 
 - Server MCP
 - generowanie testów na podstawie języka naturalnego
-- kod testów generowany jest na podstawie interfejsu uytkownika testowanej aplikacji
-- moliwość debugowania
-- itegracja z IDE
+- kod testów generowany jest na podstawie interfejsu użytkownika testowanej aplikacji
+- możliwość debugowania
+- integracja z IDE
 
 </div>
 <div>
@@ -607,7 +606,7 @@ level: 1
 # Podsumowanie
 <br/><br/><br/><br/>
 
-AI pozwala zwiększyć produktywność w tworzeniu oprogramowania, ale w nieodpowiedzialnych rękach moze stanowić poważne zagrozenie dla jakości.
+AI pozwala zwiększyć produktywność w tworzeniu oprogramowania, ale w nieodpowiedzialnych rękach może stanowić poważne zagrożenie dla jakości.
 Kompetencje przyszłości dla inyżnierów IT pozostają bez zmian, są to: 
 
 - solidne podstawy inżynierskie 
