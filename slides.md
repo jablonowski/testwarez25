@@ -21,6 +21,8 @@ mdc: true
 # W dobie AI ciągle potrzebujemy dobrych inżynierów
 
 Mateusz Jabłonowski
+<br/>
+TestWarez2025
 <Notes />
 ---
 transition: fade-out
@@ -247,7 +249,9 @@ title: AI pomaga nie tylko w pisaniu kodu
 level: 2
 ---
 # Nie tylko pisanie kodu
-<br/><br/><br/><br/>
+<br/><br/><br/>
+
+**68% inżynierów deklaruje, że oszczędza 10h tygodniowo dzięki AI** [^atlassian]
 
 Inżynierowie deklarują, że odnotowują wzrost swojej produktywności w zadaniach niezwiązanych z kodowaniem [^atlassian]
 
@@ -261,9 +265,9 @@ title: Rosnące oczekiwania
 level: 2
 ---
 # Rosnące oczekiwania
-<br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
 
-Inżynierowie deklarują, ze odnotowują wzrost swojej produktywności w zadaniach niezwiązanych z kodowaniem
+
 - ☹️ **63%** - deklaruje, że managerowie nie rozumieją problemów, z którymi się mierzą [^atlassian]
 - 📣 wg raportu DORA Ai działa jak wzmacniacz - moze wzmacniać zalety zespołów, ale moze tez pogłębiać problemy [^dora]
   
@@ -426,9 +430,12 @@ level: 2
 <h4>🚀 <a href="https://github.com/jablonowski/ai-test-case-gen">github.com</a></h4>
 
 <br/>
-<p>Workflow n8n umożliwiający generowanie przypadków testowych na podstawie treści zadań w Jira.</p>
-<br/>
-<p>Uzytkownik moze odpytywać czat (podłączony do LLM oraz API Jiry) o przypadki testowe dla dowolnego zadania. </p>
+<p>Narzędzie do generowania przypadków testowych jako wstępny wkład w pracę testera. Przypadki testowe są generowane na podstawie opisu zadania w Jira. </p>
+
+- n8n
+- integracja z Jira API
+- moliwość uruchomienia lokalnie
+
 
 </div>
 <div>
@@ -448,25 +455,18 @@ $ n8n
 title: Zarządzanie dokumentacją
 level: 2
 ---
-# Zarządzanie dokumentacją (RAG)
+# Zarządzanie dokumentacją
 <div grid="~ cols-2 gap-4">
 <div>
 <br/>
-<h4>🚀 <a href="https://github.com/jablonowski/first-rag">github.com</a></h4>
+<h4>🚀 RAG <a href="https://github.com/jablonowski/first-rag">github.com</a></h4>
 
 <br/>
-<p>Retrival Augmented Generation napisany w Node.js z wykorzystanie frameworka LangChain</p>
-<br/>
-<p>Możliwość zebrania rozproszonej dokumentacji (Jira, Confluence, zewnętrzne pliki np. pdf) w jednym miejscu. </p>
+<p>System może rozwiązać problem dokumentacji projektowej (technicznej biznesowej) rozsianej w rónych systemach i lokalizacjach (np. Jira, Confluence, statyczne pliki itd.) zapewniając dostęp do całej wiedzy za pośrednictwem jednego interfejsu np. chatu.</p>
+
 
 </div>
 <div>
-
-
-Stwórz plik ```.env``` z Twoim API key do Pinecode
-
-przygotuj modele ```llama3.2``` i ```mxbai-embed-large``` dostępne lokalnie
-
 
 ```bash
 $ npm i
@@ -474,10 +474,17 @@ $ npm i
 $ node .
 ```
 
+<br/>
+
+- Retrival Augmented Generation
+- integracja z zewenętrzną bazą wektorową
+- indeksowanie plików pdf
+- Node.js + LangChain
+
 
 </div>
 </div> 
-
+<br/><br/>
 <div><img src="./img/rag.png" /></div>
 ---
 title: Samolecząca się automatyzacja testów
@@ -490,9 +497,13 @@ level: 2
 <h4>❤️‍🩹 robotframework-heal - <a href="https://github.com/manykarim/robotframework-heal">github.com</a></h4>
 
 <br/>
-<p>Biblioteka umożliwiająca identyfikowanie testów, które "nie przeszły" z powodu błędnych (zmienionych) lokatorów elementów w drzewie DOM.</p>
+<p>Biblioteka analizuje, które testy automatyczne się nie powiodły z powodu błędnych selektorów elementów UI.</p>
 <br/>
-<p>Dzięki AI, biblioteka podmienia lokatory na optymalne i uruchamia testy ponownie.</p>
+
+- identyfikuje selektory elementów w testach (failed)
+- podmienia selektory na optymalne
+- uruchamia testy (failed) ponownie
+- generuje raport 
 
 </div>
 <div>
@@ -537,9 +548,14 @@ level: 2
 <h4>🤖 RobotMCP - <a href="https://github.com/manykarim/rf-mcp">github.com</a></h4>
 
 <br/>
-<p>Server MCP umożliwiający generowanie testów automatycznych w Robot Framework na podstawie UI.</p>
+<p>Server MCP umożliwiający generowanie testów automatycznych na podstawie opisu w języku naturalnym.</p>
 <br/>
-<p>Dzięki integracji z IDE, wygenerowany kod testów automatycznych jest gotowy do integracji z kodem Twojego projektu.</p>
+
+- Server MCP
+- generowanie testów na podstawie języka naturalnego
+- kod testów generowany jest na podstawie interfejsu uytkownika testowanej aplikacji
+- moliwość debugowania
+- itegracja z IDE
 
 </div>
 <div>
